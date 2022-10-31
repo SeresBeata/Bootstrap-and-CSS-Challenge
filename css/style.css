@@ -1,0 +1,330 @@
+
+/***** * * * * * ***** * * * * * TAG-SECLECTORS * * * * * ***** * * * * * *****/
+
+body{
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Martel', serif;
+  color:  #af6b6a;
+}
+
+h1{
+  color: #630606;
+  font-family: 'Great Vibes', cursive;
+  font-size: 50px;
+}
+
+@media (max-width: 1000px){
+  h1{
+    font-size: 32px;
+  }
+}
+
+h2{
+  color: white;
+  font-weight: bold;
+}
+
+h3{
+  color: #630606;
+  color:  #af6b6a;
+  font-family: 'Great Vibes', cursive;
+}
+
+h4{
+  color: white;
+  font-weight: bold;
+}
+
+/***** * * * * * ***** * * * * * CLASS-SECLECTORS * * * * * ***** * * * * * *****/
+
+/***** ***** HEADER-SECTION ***** *****/
+
+/*** NAVBAR ***/
+.navbar-div-item-00{
+  background-color: #fbd1d0;
+  padding: 40px 20px 0 20px;
+}
+
+.header-img{
+  height: 40px;
+}
+
+/*** HEADER CONTAINERS ***/
+.header-div-item-00{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 650px;
+  background-color: #fbd1d0;
+  position: relative;
+  padding: 0;
+  position: -2;
+}
+
+.header-div-item-01{
+  background-color: white;
+  padding: 5px 0;
+  position: relative;
+  width: 100%;
+  z-index: 2;
+}
+
+@media (max-width: 1000px) {
+  .header-div-item-01{
+    padding: 0;
+    position: static;
+  }
+}
+
+/*** HEADER IMAGE ***/
+.flowers{
+  position: absolute;
+  display: flex;
+  z-index: 1;
+  height: 95%;
+}
+
+@media (max-width: 1000px) {
+  .flowers{
+    position: static;
+    height: 50%;
+    margin-bottom: 30px;
+  }
+}
+
+/***** ***** FEATURES-SECTION ****** *****/
+
+.features-div-item-01{
+  padding: 30px 30px 5px 30px;
+  height: 300px;
+}
+
+.features-icon{
+  font-size: 50px;
+  padding: 10px;
+}
+
+/***** ***** TESTIMONIALS-SECTION ****** *****/
+
+.Testimonals-carousel00{
+  background-color: #fbd1d0;
+  padding: 100px 150px 50px 150px;
+  /*height: 600px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;*/
+}
+
+@media (max-width: 1000px)  {
+  .Testimonals-carousel00{
+    padding: 100px 0 50px 0;
+  }
+}
+
+.carousel-item{
+height: 500px;
+}
+
+/*** TESTIMONIALS IMAGE ***/
+.coffe00{
+  padding-top: 40px;
+  height: 300px;
+  width:400px;
+  border-radius: 50%;
+}
+
+@media (max-width: 1000px) {
+  .coffe00{
+    height: 300px;
+    width:350px;
+  }
+}
+
+.coffee01{
+  padding-top: 15px;
+  height: 350px;
+  border-radius: 50%;
+}
+
+.coffee02{
+  padding-top: 40px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+@media (max-width: 1000px) {
+  .coffee02{
+    height: 300px;
+    width: 350px;
+  }
+}
+
+/***** ***** PRESS-SECTION ****** *****/
+
+/*** PRESS-IMG ***/
+.press-img{
+  height: 100px;
+  border-radius: 50%;
+  padding: 10px 60px 10px 60px;
+}
+
+@media (max-width: 1000px) {
+  .press-img{
+    padding: 10px 20px 10px 20px;
+  }
+}
+
+/***** ***** COFFETYPES-SECTION ****** *****/
+
+.coffe-type-div-item00{
+  background-color: #f0ddcf;
+  padding: 100px 0 100px 0;
+}
+
+/*** COFFE-TYPE TEXT ***/
+.coffe-type-text{
+    text-transform: uppercase;
+}
+
+/*** COFFETYPES-IMG ***/
+.coffe-types-img{
+  height: 600px;
+  border-radius: 20%;
+}
+
+@media (max-width: 1000px) {
+  .coffe-types-img{
+    height: 300px;
+  }
+}
+
+/***** ***** PRICING-SECTION ****** *****/
+
+/*** CARD LAYOUT ***/
+.col-lg-6{
+  margin: 0;
+  padding: 0;
+}
+
+.pricing-div-item00{
+  padding: 100px 100px 100px 100px;
+}
+
+@media (max-width: 1000px){
+  .pricing-div-item00{
+    padding: 100px 0 0 0;
+    width: 50%;
+  }
+}
+
+.card-text-01{
+  border: 3px solid #fbd1d0;
+  background-color: #fbd1d0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom: none;
+  padding: 20px 0 20px 0;
+  margin:  0 100px 0 100px;
+}
+
+@media (max-width: 1000px){
+  .card-text-01{
+    padding: 20px 0 20px 0;
+    margin:  0 5px 0 5px;
+  }
+}
+
+.card-text-02{
+  border: 3px solid #fbd1d0;
+  border-bottom:none;
+  padding: 20px 0 20px 0;
+  margin:  0 100px 0 100px;
+}
+
+@media (max-width: 1000px){
+  .card-text-02{
+    padding: 20px 0 20px 0;
+    margin:  0 5px 0 5px;
+  }
+}
+
+.card-text-03{
+  border: 3px solid #fbd1d0;
+  background-color: #fbd1d0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 20px 50px 20px 50px;
+  margin:  0 100px 0 100px;
+}
+
+@media (max-width: 1000px){
+  .card-text-03{
+    padding: 20px 50px 20px 50px;
+    margin:  0 5px 100px 5px;
+  }
+}
+
+
+/*** CARD-ICON ***/
+.pricing-icon{
+  font-size: 35px;
+}
+
+.fa-star{
+  height: 100px;
+}
+
+/*** CARD-SPACER ***/
+.card-item-spacer{
+  height: 60px;
+}
+
+/*** PRICE TAG ***/
+.the-price{
+  font-weight: bold;
+  font-size: 30px;
+}
+
+/*** PRICING BUTTON ***/
+.button-text{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/***** ***** FOOTER-SECTION ****** *****/
+
+/*.footer-col{
+  margin: 0;
+  padding: 0;
+}
+
+.footer-row{
+  margin: 0;
+  padding: 0;
+}*/
+
+.footer-div-item-00{
+  background-color: #fbd1d0;
+  font-size: 15px;
+  padding: 50px 300px 20px 300px;
+}
+
+@media (max-width: 1000px){
+  .footer-div-item-00{
+    padding: 60px 0 20px 0;
+  }
+}
+
+.footer-div-item-01{
+  background-color: white;
+  padding: 20px 0 10px 0;
+  font-size: 10px;
+}
+
+/***** * * * * * ***** * * * * * ID-SECLECTORS * * * * * ***** * * * * * *****/
