@@ -9,6 +9,14 @@
   }
 }
 
+@media (min-width: 1080px) and (max-width: 1080px) {
+  h1{
+    font-size: 60px;
+    padding: 0 100px 0 100px;
+  }
+}
+
+/*** H3 ***/
 @media (min-width: 980px) and (max-width: 980px) {
   h3{
     font-size: 50px;
@@ -16,7 +24,22 @@
   }
 }
 
+@media (min-width: 1080px) and (max-width: 1080px) {
+  h3{
+    font-size: 50px;
+    padding: 0 100px 0 100px;
+  }
+}
+
+/*** H4 ***/
 @media (min-width: 980px) and (max-width: 980px) {
+  h4{
+    font-size: 50px;
+    padding: 0 100px 0 100px;
+  }
+}
+
+@media (min-width: 1080px) and (max-width: 1080px) {
   h4{
     font-size: 50px;
     padding: 0 100px 0 100px;
@@ -34,8 +57,22 @@
   }
 }
 
+@media (min-width: 1080px) and (max-width: 1080px) {
+  .header-div-item-00{
+    padding-bottom: 50px;
+  }
+}
+
 /*** HEADER IMAGE ***/
 @media (min-width: 980px) and (max-width: 980px) {
+  .flowers{
+    position: static;
+    height: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 1080px) and (max-width: 1080px) {
   .flowers{
     position: static;
     height: 100%;
@@ -52,6 +89,14 @@
   }
 }
 
+@media (min-width: 1080px) and (max-width: 1080px) {
+  .features-div-item-01{
+    padding: 50px 100px 5px 100px;
+    height: 300px;
+    font-size: 20px;
+  }
+}
+
 /***** ***** TESTIMONIALS-SECTION ****** *****/
 @media (min-width: 980px) and (max-width: 980px)  {
   .Testimonals-carousel00{
@@ -59,7 +104,19 @@
   }
 }
 
+@media (min-width: 1080px) and (max-width: 1080px)  {
+  .Testimonals-carousel00{
+    padding: 150px 0 100px 0;
+  }
+}
+
 @media (min-width: 980px) and (max-width: 980px){
+  .carousel-item{
+  height: 780px;
+  }
+}
+
+@media (min-width: 1080px) and (max-width: 1080px){
   .carousel-item{
   height: 780px;
   }
@@ -73,13 +130,33 @@
   }
 }
 
+@media (min-width: 1080px) and (max-width: 1080px) {
+  .coffe00{
+    height: 600px;
+    width: 750px;
+  }
+}
+
 @media (min-width: 980px) and (max-width: 980px) {
   .coffee01{
     height: 600px;
   }
 }
 
+@media (min-width: 1080px) and (max-width: 1080px) {
+  .coffee01{
+    height: 600px;
+  }
+}
+
 @media (min-width: 980px) and (max-width: 980px){
+  .coffee02{
+    height: 600px;
+    width: 750px;
+  }
+}
+
+@media (min-width: 1080px) and (max-width: 1080px){
   .coffee02{
     height: 600px;
     width: 750px;
@@ -96,6 +173,13 @@
   }
 }
 
+@media (min-width: 1080px) and (max-width: 1080px){
+  .press-img{
+    height: 200px;
+    padding: 10px 20px 10px 20px;
+  }
+}
+
 /***** ***** COFFETYPES-SECTION ****** *****/
 
 /*** COFFE-TYPE TEXT ***/
@@ -104,8 +188,19 @@
     font-size: 40px;}
 }
 
+@media (min-width: 1080px) and (max-width: 1080px){
+.coffe-type-text{
+    font-size: 40px;}
+}
+
 /*** COFFETYPES-IMG ***/
 @media (min-width: 980px) and (max-width: 980px){
+  .coffe-types-img{
+    height: 600px;
+  }
+}
+
+@media (min-width: 1080px) and (max-width: 1080px){
   .coffe-types-img{
     height: 600px;
   }
@@ -121,7 +216,22 @@
   }
 }
 
+@media (min-width: 1080px) and (max-width: 1080px){
+  .pricing-div-item00{
+    padding: 100px 50px 100px 50px;
+    width: 100%;
+  }
+}
+
 @media (min-width: 980px) and (max-width: 980px){
+  .card-text-01{
+    padding: 20px 0 20px 0;
+    margin:  0 5px 0 5px;
+    height: 200px;
+  }
+}
+
+@media (min-width: 1080px) and (max-width: 1080px){
   .card-text-01{
     padding: 20px 0 20px 0;
     margin:  0 5px 0 5px;
@@ -138,7 +248,24 @@
   }
 }
 
+@media (min-width: 1080px) and (max-width: 1080px){
+  .card-text-02{
+    padding: 20px 0 20px 0;
+    margin:  0 5px 0 5px;
+    height: 600px;
+    font-size: 40px;
+  }
+}
+
 @media (min-width: 980px) and (max-width: 980px){
+  .card-text-03{
+    padding: 20px 50px 20px 50px;
+    margin:  0 5px 100px 5px;
+    height: 200px;
+  }
+}
+
+@media (min-width: 1080px) and (max-width: 1080px){
   .card-text-03{
     padding: 20px 50px 20px 50px;
     margin:  0 5px 100px 5px;
@@ -152,8 +279,21 @@
   font-size: 50px;}
 }
 
+@media (min-width: 1080px) and (max-width: 1080px){
+.button-text{
+  font-size: 50px;}
+}
+
 /***** ***** FOOTER-SECTION ****** *****/
 @media (min-width: 980px) and (max-width: 980px){
+  .footer-div-item-00{
+    padding: 60px 0 20px 0;
+    background-color: #f0ddcf;;
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 1080px) and (max-width: 1080px){
   .footer-div-item-00{
     padding: 60px 0 20px 0;
     background-color: #f0ddcf;;
